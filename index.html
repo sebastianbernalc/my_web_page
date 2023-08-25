@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Index</title>					
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTL</title>
+  	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="Sebastian Bernal" content="Universidad de Antioquia" />
+	<meta
+     name="Practica HTML"
+     content="Practica para poner a prueba los elementos HTML, Estructura básica de un documento HTML, Presentación y formato de textos en HTML" />
+	<meta name="keywords" content="HTML, marcador, elementos, estructura, etiquetas, web">
+    <link rel="icon" href="icono.png" type="image/x-icon">
+
+	<style>
+        /* Estilos para el título */
+        h1 {
+            font-size: 85px; /* Tamaño grande del texto */
+            color: #333;    /* Color del texto */
+            text-align:left; /* Centrar el título */
+        }
+		h2,h3 {
+            font-size: 30px; /* Tamaño grande del texto */
+            color: #333;    /* Color del texto */
+            text-align:left; /* Centrar el título */
+			border-bottom: 2px solid #333; /* Agregar una línea negra debajo del encabezado */
+            }
+		h4 {
+            font-size: 30px; /* Tamaño grande del texto */
+            color: #333;    /* Color del texto */
+            text-align:left; /* Centrar el título */
+            }
+		p{
+            margin-bottom: 20px; /* Agregar un espacio de 20px después de cada párrafo */
+        }
+    </style>
 </head>
 <body>
-  <h1>En construcción...Disculpe las molestias!!!</h1>
+    <h1>HTML</h1>
+	<p><strong>HTML</strong>, siglas en inglés de <em><strong> HyperText Markup Language</strong></em>  (‘lenguaje de marcado de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del <em>World Wide Web Consortium</em> (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la <em>World Wide Web</em>  (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado. </p>
+	<h2>Primeras especificaciones de HTML</h2>
+	<p><em>Tim Berners-Lee</em> (TBL) en 1991​ describe 18 elementos que incluyen el diseño inicial y relativamente simple de HTML. Trece de estos elementos todavía existen en HTML 4.​</p>
+	<p>Berners-Lee consideraba el HTML una ampliación de <strong>SGML</strong>, pero no fue formalmente reconocida como tal hasta la publicación a mediados de 1993, por la <em>IETF</em> (en español: Grupo de Trabajo de Ingeniería de Internet), de una primera proposición para una especificación del HTML: el borrador del <em>Hypertext Markup Language</em> de Berners-Lee y Dan Connolly, que incluía una Definición de Tipo de Documento SGML para definir la gramática.​ El borrador expiró a los seis meses, pero fue notable por su reconocimiento de la etiqueta propia del navegador <em><strong>Mosaic</strong></em> sada para insertar imágenes sin cambio de línea, que reflejaba la filosofía del IETF de basar estándares en prototipos con éxito.​De la misma manera, el borrador competidor de Dave Raggett HTML+ <em>(Hypertext Markup Format)</em> (Formato de Marcaje de Hipertexto), de finales de 1993, sugería estandarizar características ya implementadas, como las tablas.​</p>
+	<h3>Marcador HTML</h3>
+	<p>El HTML se escribe en forma de &laquo;etiquetas&raquo;, rodeadas por corchetes angulares (&LT;,&GT;,&sol;).  El HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir o hacer referencia a un tipo de programa llamado <em>script</em>, el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.</p>
+	<p>HTML también sirve para referirse al contenido del tipo de MIME <em>text/html</em>  o todavía más ampliamente como un término genérico para el HTML, ya sea en forma descendida del <strong>XML</strong> (como XHTML 1.0 y posteriores) o en forma descendida directamente de <strong>SGML</strong> (como HTML 4.01 y anteriores). HTML consta de varios componentes vitales, entre ellos los elementos y sus atributos, tipos de data y la declaración de tipo de documento.</p>
+	<h4>Elementos</h4>
+	<p>Los elementos son la estructura básica de HTML. Los elementos tienen dos propiedades básicas: atributos y contenido. Cada atributo y contenido tiene ciertas restricciones para que se considere válido al documento HTML. Un elemento generalmente tiene una etiqueta de inicio (por ejemplo, <code> &LT;nombre-de-elemento&GT; </code>)  y una etiqueta de cierre (por ejemplo,<code>&LT; &sol;nombre-de-elemento&GT;</code>). Los atributos del elemento están contenidos en la etiqueta de inicio y el contenido está ubicado entre las dos etiquetas (por ejemplo, <code>&LT;nombre-de-elemento atributo="valor"&GT;Contenido&LT;&sol;nombre-de-elemento&LT;</code>). Algunos elementos, tales como <code>&GT;br&LT;</code>  no tienen contenido ni llevan una etiqueta de cierre. Debajo se listan varios tipos de elementos de marcado usados en HTML.</p>
+	<p>El marcado estructural describe el propósito del texto. Por ejemplo, <code>&LT;h2&GT;Golf&LT;&sol;h2&GT;</code> establece &laquo;Golf&raquo; como un encabezamiento de segundo nivel, el cual se mostraría en un navegador de una manera similar al título &laquo;Marcador HTML&raquo; al principio de esta sección. El marcado estructural no define cómo se verá el elemento, pero la mayoría de los navegadores web han estandarizado el formato de los elementos. Puede aplicarse un formato específico al texto por medio de hojas de estilo en cascada.</p>
+	<p>El marcado presentacional describe la apariencia del texto, sin importar su función. Por ejemplo, <code>&LT;B&GT;negrita&LT;&sol;B&GT;</code> indica que los navegadores web visuales deben mostrar el texto en <strong>negrita</strong> pero no indica qué deben hacer los navegadores web que muestran el contenido de otra manera (por ejemplo, los que leen el texto en voz alta). En el caso de <code>&LT;B&GT;negrita&LT;&sol;B&GT;</code> e <code>&LT;i&GT;italica&LT;&sol;i&GT;</code>  existen elementos que se ven de la misma manera pero tienen una naturaleza más semántica: <code> &LT;strong&GT;enfasis fuerte&LT;&sol;strong&GT;</code> y <code>&LT;em&GT;enfasis&LT;&sol;em&GT;</code>.</p>
+	<p>Es fácil ver cómo un lector de pantalla debería interpretar estos dos elementos. Sin embargo, son equivalentes a sus correspondientes elementos presentacionales: un lector de pantalla no debería decir más fuerte el nombre de un libro, aunque el nombre resalte en <em>italicas</em> en una pantalla. La mayoría del marcado presentacional ha sido desechada desde la versión 4.01, en favor de las hojas de estilo en cascada.	</p>
+	<p>El marcado <em>hipertextual</em> se utiliza para enlazar partes del documento con otros documentos o con otras partes del mismo documento. Para crear un enlace es necesario utilizar la etiqueta de ancla <code>&LT;a&GT;</code>  junto con el atributo <code>href</code>  que establecerá la dirección URL a la que apunta el enlace. Por ejemplo, un enlace que muestre el texto de la dirección y vaya hacia nuestra Wikipedia podría ser de la forma <code>&LT;a href=<q>https://www.wikipedia.org</q>&GT;https://www.wikipedia.org&LT;&sol;a&GT;</code> También se pueden crear enlaces sobre otros objetos, tales como imágenes <code>&LT;a href=<q>enlace</q>&GT;&LT;img src=<q>imagen</q> &sol;&GT;&LT;&sol;a&GT;</code> </p>
+	<h3>Etiquetas HTML básicas</h3>
+	<u1>
+		<li><code>&LT;html&GT;</code>: define el inicio del documento HTML, le indica al navegador que lo que viene a continuación debe ser interpretado como código HTML. Esto es así de facto, ya que en teoría lo que define el tipo de documento es el DOCTYPE, que significa la palabra justo tras DOCTYPE el tag de raíz</li>
+		<li><code>&LT;script&GT;</code>: incrusta un script en una web, o llama a uno mediante src="url del script". Se recomienda incluir el tipo MIME en el atributo type, en el caso de JavaScript <code>text&sol;JavaScript</code></li>
+		<li><code>&LT;head&GT;</code>: define la cabecera del documento HTML; esta cabecera suele contener información sobre el documento que no se muestra directamente al usuario como, por ejemplo, el título de la ventana del navegador. Dentro de la cabecera <head> es posible encontrar:</li>
+			<ol>
+				<li><code>title</code> : define el título de la página. Por lo general, el título aparece en la barra de título encima de la ventana.				</li>
+				<li><code>link</code>:  para vincular el sitio a hojas de estilo o iconos. Por ejemplo: <code>&LT;link rel="stylesheet" href="&sol;style.css" type="text&sol;css"&GT;</code></li>
+				<li><code>style</code>:  para colocar el estilo interno de la página; ya sea usando CSS u otros lenguajes similares. No es necesario colocarlo si se va a vincular a un archivo externo usando la etiqueta <code>&LT;link&GT;</code></li>
+				<li><code>meta</code>: para metadatos como la autoría o la licencia, incluso para indicar parámetros http (mediante <code>http-equiv=""</code>)  cuando no se pueden modificar por no estar disponible la configuración o por dificultades con server-side scripting.				</li>
+			</ol>
+		<li><code>&LT;body&GT;</code>:  define el contenido principal o cuerpo del documento. Esta es la parte del documento html que se muestra en el navegador; dentro de esta etiqueta pueden definirse propiedades comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo <body> es posible encontrar numerosas etiquetas. A continuación se indican algunas a modo de ejemplo:</li>	
+			<ol>
+				<li><code>&LT;article&GT;</code>: Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o re-utilizable.</li>
+				<li><code>&LT;h1&GT; a &LT;ha6&GT;</code>:  encabezados o títulos del documento con diferente relevancia.				</li>
+				<li><code>&LT;code&GT;</code>: define una tabla.</li>
+				<ol>
+					<li><code>&LT;tr&GT;</code>: define una fila de la tabla.</li>
+					<li><code>&LT;td&GT;</code>: define una celda de la tabla.</li>
+				</ol>
+					<li><code>&LT;footer&GT;</code>:  representa el pie de un documento o sección. La información que se suele añadir en este bloque es el autor del documento, enlaces a contenido relacionado, información de copyright, avisos legales, etc.</li>	
+					<li><code>&LT;a&GT;</code>: hipervínculo o enlace, dentro o fuera del sitio web. Debe definirse el parámetro de pasada por medio del atributo <em>href</em> Por ejemplo:<code>&LT;a href="http://www.example.com" title="Ejemplo" target="_blank" tabindex="1"&GT;Ejemplo&LT;&sol;a&GT;</code>  se representa como ejemplo.		</li>	
+					<li><code>&LT;div&GT;</code>: división de la página. Se recomienda, junto con css, en vez de <code>&LT;table&GT;</code> cuando se desea alinear contenido.</li>	
+					<li><code>&LT;img&GT;</code>:  imagen. Requiere del atributo src, que indica la ruta en la que se encuentra la imagen. Por ejemplo: <code>&LT;img src="./imágenes/mifoto.jpg" &sol;&GT;</code> Es conveniente, por accesibilidad, poner un atributo <code>alt="texto alternativo"</code></li>
+					<li><code>&LT;ol&GT;</code>: etiqueta para listas ordenadas.		</li>	
+					<li><code>&LT;u1&GT;</code>: etiqueta para listas desordenadas.		</li>	
+					<li><code>&LT;li&GT;</code>:  etiqueta elementos de una lista.		</li>
+					<li><code>&LT;b&GT;</code>:  texto en negrita (etiqueta desaprobada. Se recomienda usar la etiqueta <code>&LT;strong&GT;</code>)</li>
+					<li><code>&LT;i&GT;</code>:  texto en cursiva (etiqueta desaprobada. Se recomienda usar la etiqueta <code>&LT;em&GT;</code>	)	</li>
+					<li><code>&LT;s&GT;</code>:  texto tachado (etiqueta desaprobada. Se recomienda usar la etiqueta <code>&LT;del&GT;</code>)</li>
+					<li><code>&LT;u&GT;</code>: Antes texto subrayado. A partir de HTML 5 define porciones de texto diferenciadas o destacadas del resto, para indicar correcciones por ejemplo (etiqueta desaprobada en HTML 4.01 y redefinida en HTML 5).		</li>
+					<li><code>&LT;main&GT;</code>:  división estructural de la página que engloba el contenido principal de la misma. Dentro de esta etiqueta, por ejemplo, encontramos los <code>&LT;aticle&GT;</code></li>
+					<li><code>&LT;span&GT;</code>: Sirve para diferenciar un texto de otro.		</li>
+					<li><code>&LT;br&GT;</code>: Sirve para provocar un salto de línea. Esta etiqueta no se cierra.		</li>
+					<li><code>&LT;hr&GT;</code>:  Sirve para provocar un cambio de tema entre párrafos. Esta etiqueta no se cierra.		</li>
+					<li><code>&LT;details&GT;</code>: Sirve para crear una sección desplegable		</li>
+					<li><code>&LT;summary&GT;</code>: Sirve para crear el título de la sección desplegable		</li>
+				
+
+			</ol>
+		
+	</u1>
+	<p>La mayoría de etiquetas deben cerrarse como se abren, pero con una barra ( / ) tal como se muestra en los siguientes ejemplos:</p>
+	<ui>
+		<li><code>&LT;table&GT;&LT;tr&GT;&LT;td&GT;contenido de celda&LT;&sol;td&GT;&LT;&sol;tr&GT;&LT;&sol;table&GT;</code></li>
+		<li><code>&LT;script&GT;Código de un script integrado en la página&LT;&sol;script&GT;</code></li>
+		<li><code>&LT;header&GT; División estructural en la parte del contenido. &LT;&sol;header&GT;</code></li>
+	</ui>
 </body>
 </html>
